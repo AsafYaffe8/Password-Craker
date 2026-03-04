@@ -1,7 +1,7 @@
 
 ## Password Cracker Simulator
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**URL**: https://password-cracker.lovable.app
 
 An interactive web application that simulates how brute-force password attacks work and demonstrates how password strength affects the time required to crack a password.
 
