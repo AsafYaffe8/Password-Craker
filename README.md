@@ -1,73 +1,101 @@
-# Welcome to your Lovable project
 
-## Project info
+## Password Cracker Simulator
 
 **URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-## How can I edit this code?
+An interactive web application that simulates how brute-force password attacks work and demonstrates how password strength affects the time required to crack a password.
 
-There are several ways of editing your application.
+This project was developed with the assistance of VibeCode, an AI-based coding environment used to accelerate development and generate parts of the application logic and structure.
 
-**Use Lovable**
+**Features**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* Simulates brute-force password cracking
 
-Changes made via Lovable will be committed automatically to this repo.
+* Real-time password strength meter
 
-**Use your preferred IDE**
+* Interactive terminal-style interface
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* Visual representation of password security
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* Demonstrates the impact of password complexity
 
-Follow these steps:
+**Technologies Used**
+* React
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* TypeScript
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* Vite
 
-# Step 3: Install the necessary dependencies.
-npm i
+* Tailwind CSS
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+* **VibeCode (AI-assisted development)**
+  
+**how it works**
+
+The application simulates a brute-force attack by attempting multiple password combinations and estimating how long it would take to crack a password depending on its complexity.
+
+The simulator demonstrates how factors such as:
+
+* password length
+
+* uppercase and lowercase characters
+
+* numbers
+
+* special characters
+
+can dramatically increase the difficulty of cracking a password.
+
+**Installation**
+
+Clone the repository:
+
+git clone https://github.com/AsafYaffe8/Password-Craker.git
+
+Navigate to the project folder:
+
+cd Password-Craker
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
 npm run dev
+
+**Project Structure**
+```text
+Password-Craker
+│
+├── public
+├── src
+│   ├── components
+│   │   ├── CrackSimulator.tsx
+│   │   ├── PasswordStrengthMeter.tsx
+│   │   └── TerminalHeader.tsx
+│   │
+│   ├── App.tsx
+│   └── App.css
+│
+├── index.html
+├── package.json
+└── README.md
 ```
+**Educational Purpose**
+This project was created as a learning project to demonstrate cybersecurity concepts such as:
 
-**Edit a file directly in GitHub**
+* brute-force attacks
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+* password strength analysis
 
-**Use GitHub Codespaces**
+* authentication security
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+**Disclaimer**
 
-## What technologies are used for this project?
+This project is intended for educational purposes only and should not be used for unauthorized access or malicious activities.
 
-This project is built with:
+**Author**
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Asaf Yaffe :) 
+Computer Science student interested in cybersecurity, software development, and modern development tools.
